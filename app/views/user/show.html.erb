@@ -1,5 +1,6 @@
 <div class="col-md-6 col-md-offset-3">
   <div class="well center">
     <%= @user.display_name %>
+    <%= pluralize @user.photos.count, 'photo' %>
   </div>
 </div>
